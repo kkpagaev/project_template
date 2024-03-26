@@ -6,7 +6,7 @@ def puts(text : str):
     Args:
         text: text to print
     """
-    pass
+    print(text)
 
 
 def write_to_file(filepath : str, text : str):
@@ -17,6 +17,7 @@ def write_to_file(filepath : str, text : str):
         filepath: path to file
         text: text to write
     """
-    pass
+    with open(filepath, 'w') as f:
+        f.write(text)
 
 
