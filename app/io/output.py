@@ -17,7 +17,7 @@ def write_to_file(filepath : str, text : str):
         filepath: path to file
         text: text to write
     """
-    with open(filepath, 'w') as f:
+    with open(filepath, "x") as f:
         f.write(text)
 
 
