@@ -4,6 +4,8 @@ def read_prompt():
     """
     Reads input from user
 
+    Args:
+        None
     Returns:
         str: user input
     """
@@ -13,6 +15,8 @@ def read_file_builtin(path : str):
     """
     Reads file using built-in function
 
+    Args:
+        path: path to file
     Returns:
         str: file content
     """
